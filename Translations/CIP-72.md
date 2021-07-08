@@ -17,4 +17,6 @@ RPC在收到一个以太坊类型的交易时，如果发送者的地址不是�
 ## Activation plan
 参数：`EPOCH_HEIGHT_CIP72A`，`BLOCK_NUMBER_CIP72B`。
 
-a. 从`epoch_height >= EPOCH_HEIGHT_CIP72A`开始，以太坊类型交易可以被打包进区块。在此之前，由于以太坊类型交易的目标epoch数值太大，将其打包进区块的行为将被视为非法。b. 从`block_number >= BLOCK_NUMBER_CIP72B`开始，虚拟机可以执行以太坊类型交易。在此之前，虚拟机将忽略此类交易。
+a. 从`epoch_height >= EPOCH_HEIGHT_CIP72A`开始，以太坊类型交易可以被打包进区块。在此之前，由于以太坊类型交易的目标epoch数值太大，将其打包进区块的行为将被视为非法。
+
+b. 从`block_number >= BLOCK_NUMBER_CIP72B`开始，虚拟机可以执行以太坊类型交易。在此之前，虚拟机将忽略此类交易。
