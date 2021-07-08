@@ -14,6 +14,7 @@ https://github.com/Conflux-Chain/CIPs/blob/master/CIPs/cip-78.md
 |:---|:---|:---|:---|
 |**Success**|Gas: false / Storage: false|Gas: false / **Storage: true**|Gas: true / Storage: true|
 |**Reverted / Fail**|Gas: false / Storage: false|Gas: false / Storage: false|**Gas: false / Storage: false**|
+
 此次CIP之后。
 | |**Not in whitelist**|**In whitelist but sponsor cannot afford**|**Sponsored**|
 |:---|:---|:---|:---|
