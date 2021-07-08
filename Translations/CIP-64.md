@@ -10,7 +10,7 @@ https://github.com/Conflux-Chain/CIPs/blob/master/CIPs/cip-64.md
 第二种用例在Conflux不可用，因为我们的查询 APIs(RPC) 仅支持通过  epoch数来查询，而不支持通过区块数查询。
 # Specification
 从epoch XXX开始，一个新的内部合约将被部署在地址`0x0888000000000000000000000000000000000003`(`cfx:type.builtin:aaejuaaaaaaaaaaaaaaaaaaaaaaaaaaaapx8thaezf`)。此合约具有如下接口。
-```solidity
+```
 pragma solidity >=0.4.15;
 
 contract Context {
